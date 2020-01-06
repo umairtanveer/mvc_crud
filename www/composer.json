@@ -1,0 +1,13 @@
+{
+    "require": {
+        "twig/twig": "~2.0",
+        "klein/klein": "^2.1",
+        "doctrine/annotations": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+             "Core\\": "Core/",
+             "App\\": "App/"
+        }
+    }
+}
